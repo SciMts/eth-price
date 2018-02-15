@@ -1,0 +1,31 @@
+{
+  "name": "rates",
+  "version": "1.0.0",
+  "description": "Fail-resistant crypto rates",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SciMts/rates.git"
+  },
+  "keywords": [
+    "crypto",
+    "ico",
+    "bitcoin"
+  ],
+  "author": "Jonny Burger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SciMts/rates/issues"
+  },
+  "homepage": "https://github.com/SciMts/rates#readme",
+  "dependencies": {
+    "ava": "^0.25.0",
+    "cheerio": "^1.0.0-rc.2",
+    "got": "^8.1.0",
+    "lodash": "^4.17.5",
+    "xo": "^0.20.1"
+  }
+}
