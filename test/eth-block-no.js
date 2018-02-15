@@ -27,5 +27,5 @@ test('Block numbers should be approximately the same', async t => {
 		getFromEtherscan(),
 		getFromInfura()
 	]);
-	t.true(max(blockNumbers) - min(blockNumbers) < 5);
+	t.true(max(blockNumbers) - min(blockNumbers) < 7);
 });
