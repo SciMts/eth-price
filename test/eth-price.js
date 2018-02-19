@@ -25,11 +25,11 @@ test('Kraken', async t => {
 	t.true(btcPrice < 10000);
 });
 
-test('Less than $1000 spread', async t => {
+test('Less than $150 spread', async t => {
 	const prices = await Promise.all([
 		getFromCoinmarketCap(),
 		getFromGdax(),
 		getFromKraken()
 	]);
-	t.true(max(prices) - min(prices) < 70);
+	t.true(max(prices) - min(prices) < 150);
 });
