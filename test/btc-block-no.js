@@ -21,7 +21,7 @@ test('Blocktrail', async t => {
 	t.true(blocktrail > 509304);
 });
 
-test('Blocknumbers should be the same', async t => {
+test('Blocknumbers should be about the same', async t => {
 	const blockNumbers = await Promise.all([
 		getFromBlocktrail(),
 		getFromBlockCypher(),
