@@ -31,5 +31,5 @@ test('Less than $1000 spread', async t => {
 		getFromGdax(),
 		getFromKraken()
 	]);
-	t.true(max(prices) - min(prices) < 50);
+	t.true(max(prices) - min(prices) < 70);
 });
