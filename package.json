@@ -4,7 +4,7 @@
 	"description": "Fail-resistant crypto rates",
 	"main": "index.js",
 	"scripts": {
-		"test": "xo && ava",
+		"test": "xo && SLACK_API_KEY=test SLACK_NAME=scimts ava",
 		"start": "node lib"
 	},
 	"repository": {
