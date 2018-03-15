@@ -15,7 +15,8 @@ npm start
 
 * `SLACK_NAME` = Slack channel name for error reporting
 * `SLACK_API_KEY` = Slack API key for error reporting
-* `TESTNET=true` if you want to fetch ETH block numbers from Kovan
+* `TESTNET` = if you want to fetch ETH block numbers from Kovan. Default `false`
+* `INTERVAL` = Fetching interval `10000`
 
 ## Testing
 
